@@ -43,7 +43,6 @@ ul {
 }
 li {
     float: left;
-	margin: 3px;
     height: 30px;
     line-height: 3px;
     margin: auto; /* detta gör den centrerad, lika mkt margin på varje sida*/
