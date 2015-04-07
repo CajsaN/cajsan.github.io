@@ -13,7 +13,7 @@ body {
 
 h1 { font-size:60px;
 	color:#C2919F;
-	font-family: Courier, Monaco, Lucida Console, monospace, sans-serif;
+	font-family: Courier, "Monaco", "Lucida Console", monospace, sans-serif;
 	font-weight: lighter;
 	text-transform: uppercase;
 	text-align: center;
@@ -58,7 +58,6 @@ li {
     width: 80px;
     background-color: #639FB1;
 	font-weight: bold;
-	    color: #639FB1;
 	    text-align: center;
 	    padding: 14px;
 	    text-decoration: none;
