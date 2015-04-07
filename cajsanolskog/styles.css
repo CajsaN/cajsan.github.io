@@ -52,7 +52,6 @@ li {
     line-height: 3px;
  margin: auto; /* detta gör den centrerad, lika mkt margin på varje sida*/
  text-align: center; /* detta texten centrerad!*/
- text-color: #639FB1;
 	}
 	 li>a {  display: block;
     width: 80px;
@@ -62,8 +61,6 @@ li {
 	    padding: 14px;
 	    text-decoration: none;
 	    text-transform: uppercase;
-		text-color: #639FB1;
-		
 
 				   
 }
@@ -76,7 +73,7 @@ nav {
 
 	   
 div {
-	padding: 120px, 120px;
+	padding: 120px 120px;
 	 margin: auto; /* detta gör den centrerad, lika mkt margin på varje sida*/
 	 text-align: center; /* detta texten centrerad!*/
 	   	
