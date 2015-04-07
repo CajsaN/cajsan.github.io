@@ -1,95 +1,111 @@
+/* beige: #CCCAAD, deep plum: #754C58, plum #C2919F, blue/grey #639FB1, deeper blue/grey #526D75 */
+
 body {
 	
 	    background-image: url("https://dl.dropboxusercontent.com/s/gt0y9xhrqijhmbo/2011-11-09%2017.18.55.jpg?dl=0");
 	    background-color: #cccccc; 
+		padding: 10px;
 	}
 *{
 	font-family: sans-serif;
+
 	}
 
 h1 { font-size:60px;
-	color:plum;
+	color:#C2919F;
 	font-family: Courier, Monaco, Lucida Console, monospace, sans-serif;
 	font-weight: lighter;
-	text-transform:uppercase;
-	text-align:center;
-	margin:20px;	
+	text-transform: uppercase;
+	text-align: center;
+	margin: 20px;	
+	margin-bottom: 5px;
 	
 }
 h2 { 
 
-	 font-size: 24px;
-	color:plum;	
-	padding:100px 150px 0px 150px;
-	margin:30px;
-	text-transform:uppercase;
+	font-size: 24px;
+	color:#C2919F;	
+	padding: 100px 150px 0px 150px;
+	margin: 30px 200px;
+	text-transform: uppercase;
 }
 h3 { 
 
-	 font-size: 20px;
-	color:#a0dddd;
+	font-size: 20px;
+	color: #754C58;
 	font-weight:bold;
 	font-style:normal;
 	/*<!--text-transform:normal;-->*/
 	padding:1px 150px 0px 150px;
-	margin:30px;	
+	margin: 30px 200px;	
 }
 ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-	overflow: hidden;
+	
 	
 }
 li {
     float: left;
     height: 30px;
     line-height: 3px;
-    margin: auto; /* detta gör den centrerad, lika mkt margin på varje sida*/
+ margin: auto; /* detta gör den centrerad, lika mkt margin på varje sida*/
  text-align: center; /* detta texten centrerad!*/
+ text-color: #639FB1;
 	}
 	 li>a {  display: block;
     width: 80px;
-    background-color: #c0ffe0;
+    background-color: #639FB1;
 	font-weight: bold;
-	    color: #c0ffe0;
-	    background-color: #c0ffe0;
+	    color: #639FB1;
 	    text-align: center;
 	    padding: 14px;
 	    text-decoration: none;
 	    text-transform: uppercase;
+		text-color: #639FB1;
+		
 
-
-		   
+				   
 }
 nav {
        height: 30px;
       padding: 0px 530px;
 	  
+	  
+	   }
+
+	   
+div {
+	padding: 120px, 120px;
+	 margin: auto; /* detta gör den centrerad, lika mkt margin på varje sida*/
+	 text-align: center; /* detta texten centrerad!*/
+	   	
 	   }
 	   
 p {
 	line-height:24px;
-	color:white;
+	color:#CCCAAD;
 	padding:0px 150px;
-	margin:30px;
+	margin: 20px 200px;
 	}
 	
 .title{
-		color:#c0ffe0;
+		color:#639FB1;
 		font-weight: normal;
 		}
 		.title>a 
-		a:hover {color:#c0ffe0;
+		a:hover {
+			color:#c0ffe0;
 	}
-.names {color:#a0dddd;
+.names {color:#639FB1;
 		}
 		.names>a
 		{
-			color:plum; 
+			color:#C2919F; 
 			
 		}
-		
+
 /*#header{
 
 		}*/
@@ -98,12 +114,14 @@ p {
 		{ color:black;
 			  text-align:right;
 			  font-size: 10px;
+			  margin-bottom: 5px;
+			  padding: 20px;
 			 
 				}
 				
 				
-	a:link {color:plum;
+	a:link {color:#C2919F;
 		text-decoration:none;
 	}
-	a:visited {color:plum;}
-	a:hover {color:#a0dddd;}
+	a:visited {color:#C2919F}
+	a:hover {color:#754C58;}
