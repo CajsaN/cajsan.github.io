@@ -1131,10 +1131,10 @@ fieldset[disabled] .btn-custom.active {
 	
 }
 
-div<nav {
+/*div<nav {
 
 	color: transparent;
-}
+}*/
 
 p {
 	font-size:19px;
@@ -1148,10 +1148,10 @@ p {
 h4 {
 	font-size:15px;
 	color: #CCCAAD;
-	margin: -3 0 0 0;
+/*	margin: -3 0 0 0; */
 }
 .title{
-	text-color: #639FB1;
+	font-color: #639FB1;
 }
 .title>a{
 	background-color: transparent;
