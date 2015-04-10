@@ -1162,6 +1162,6 @@ span>iframe {
 div>iframe{
 	margin: 0px 0px !important;
 }
-a {
+a:hover {
 	text-decoration: underline;
 }
