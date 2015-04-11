@@ -11,7 +11,8 @@
 .navbar-default .navbar-nav>li>a { color: #FFF;}
 
 .navbar-default .navbar-toggle .icon-bar { background-color: #FFF; }
-i.feature {	font-size:100px;}
+
+i.feature {	font-size:100px;} /* denna gör <i> med class feature till denna font-size (Vector symbolerna) */
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color: #FF5800;
@@ -60,7 +61,7 @@ i.feature {	font-size:100px;}
   	line-height: 1.5em;
 }
 
-#technology #subtitle {margin-bottom:24px;}
+#technology #subtitle2 {margin-bottom:24px;}
 
 #technology img {
 	background-color:#FFF;
