@@ -1,0 +1,477 @@
+/* light purple #8179C7, beige/brown #87776D, PURPLE #5A567A, dark green #445E41, light green for details #98C793 */
+
+* {
+	font-family: Garamond;
+}
+
+.navbar-default {
+	background-color:#98C793;
+	border-color:#FFF;
+	font-family: Garamond;
+}
+
+.navbar-default .navbar-brand {
+	color: #FFF;
+	 font-weight: bold;
+	 font-family: Desdemona; font-size:1.5em;
+}
+
+.navbar-default .navbar-nav>li>a { color: #FFF; }
+
+.navbar-default .navbar-toggle .icon-bar { background-color: #FFF; }
+
+i.feature {	font-size:100px;} /* denna gör <i> med class feature till denna font-size (Vector symbolerna) */
+strong.feature {padding: 150px 50px; font-size: 1.5em;}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #445E41;
+  background-color: #FFF;
+ 
+}
+
+.btn-blue {
+	background-color:#FFF;
+	border-color:#8179C7;
+	color:#8179C7; 
+	font-family: Garamond;
+	/* light green */
+}
+
+.btn-orange {
+	background-color:#FFF;
+	border-color:#8179C7;
+	color:#8179C7; /* light purple */
+	
+
+}
+
+
+
+	
+.btn .btn-default .navbar-btn {
+	background-color:#FFF;
+	border-color:#8179C7;
+	color:#8179C7;
+}
+/*.list-group-item
+{
+	background-color:#FFF;
+	border-color:#8179C7;
+	color:#8179C7;
+}
+.list-group-item active {
+	background-color:#FFF;
+	border-color:#8179C7;
+	color:#8179C7;
+	}*/
+.form-control {
+	border: 1px solid #98C793;
+}
+
+.footer .btn-default {
+  color: #445E41;
+  background-color: #FFF;
+  border-color: #98C793;
+}
+
+#hero {background-color:#5A567A;color:#FFF;padding:100px 0px 100px 0px;}
+#hero h2 {font-size:5em;margin-bottom:.25em;
+font-family: Desdemona;}
+#hero p#subtitle {font-size:2.5em;margin-bottom:.5em;font-style:italic;}
+
+#hero p#hard-sell {margin-top:50px;font-size:1.75em;}
+
+#hero2 {background-color:#98C793;color:#FFF;padding:50px 0px 150px 0px;}
+#hero2 h2 {font-size:5em;
+font-family: Desdemona;padding: 100px;}
+
+#contact 
+{ background-color:#5A567A;color:#FFF;padding:100px 0px 100px 0px;}
+#contact h2{font-size: 2.5em;
+	padding: 0px 0px 50px 0px;
+font-family: Desdemona;}
+#contact p {padding: 120px 100px; font-size:1.3em}
+
+#submit {background-color:#5A567A;color:#FFF;padding:5px 10px;}
+
+#submitpage h2{font-size:1.8em;}
+#submitpage {background-color:#5A567A;color:#FFF;padding:200px;}
+
+#about { background-color:#5A567A;color:#FFF;padding:100px 0px 100px 0px;}
+#about h2{font-size: 2.8em;font-family: Desdemona; padding: 50px 0px 80px 0px;}
+#about p{
+	font-size: 16px;
+	padding: 8px;
+}
+
+#feature {padding:80px 0px;background-color:#5A567A;color:#FFF;}
+
+#feature h3
+{font-family: Desdemona;}
+#container.feature {
+	padding:50px;
+}
+
+#buy {background-color:#5A567A;
+	color:#FFF;
+	padding:100px 0px 100px 0px;}
+#buy h2{font-family: Desdemona; font-size: 2em;}
+
+#technology {
+	padding: 50px 0px 50px 0;
+	background-color:#FFF;
+	
+}
+
+#technology h2 {
+	font-size: 3.5em;
+  	line-height: 1.5em;
+	font-family: Desdemona;}
+
+
+#technology #subtitle2 {margin-bottom:24px;}
+
+#technology img {
+	background-color:#FFF;
+
+}
+
+#technology .features {margin-top:24px;}
+
+#action {
+	padding:75px 0px;
+	background-color:#4C61FF;
+}
+
+#action h2 {text-align:right;color:#FFF; font-family: Desdemona;}
+
+#action .input-group {margin-top:19px;}
+
+#action .btn-default {border:1px solid #FF5800;color:#FF5800;}
+
+#history {
+	padding: 50px 0px 100px 0;
+	background-color:#5A567A;}
+	
+#history p {color: #FFF;
+	padding: 10px;
+	font-size: 16px;}
+	#history h3 {color: #FFF;
+	padding: 10px;
+	font-size: 2.5em;
+	font-family: Desdemona;}
+#history h2 {color: #FFF;
+	font-size: 3.5em;
+	margin: 50px;
+	font-family: Desdemona;}
+#history .numbers {
+		font-family: Desdemona;
+		font-size: 2em;
+	}
+
+
+#faq {padding: 180px 0px 80px 0px;
+	background-color: #5A567A;
+	color: white;}
+#faq h2 {text-align:right;}
+
+
+
+#faq .panel-default>.panel-heading {
+  color: black;
+  background-color: #5A567A;
+  border-color: #FFF;
+  border-radius: 5%;
+}
+
+
+#faq .panel-default {
+  border-color: #FFF;
+  border-radius: 5%;
+}
+
+#map-container{
+    height: 500px;
+    width: 500px;
+}
+.form-horizontal{
+	padding: 70px 30px;
+}
+
+
+.footer {
+	background-color: #98C793;
+	color:#FFF;
+	padding:30px 0px;
+	border: 1px solid white;
+}
+
+.footer small {color:#FFF;}
+
+.footer a {color:#8179C7;}
+
+.footer .copyright {padding:25px 0 0 0px;}
+
+.link{
+	color: #8179C7 ;
+}
+
+#googleMap{
+	margin: 70px;
+}
+
+#purchase {background-color:#5A567A;color:#FFF;padding:100px 0px 0px 0px;}
+#purchase h2 {font-size:5em;margin-bottom:.25em;font-family:Desdemona;}
+#purchase p {font-size:1em; margin-top: 40px;}
+.cart {
+	padding:90px;
+}
+.purchaselink {
+	padding: 5px;
+}
+#purchase p#info {font-size:1.2em; padding: 100px 0px 0px 0px;}	
+
+#explain {
+		padding: 200px 0px;
+		background-color:#98C793;color:#FFF;
+		
+	}
+#explain i{font-size:24px; padding: 3px;}
+
+#explain2 {
+		padding: 200px 0px;
+		background-color:#5A567A;color:#FFF;}
+		#explain2 i{font-size:24px; padding: 3px;}
+		
+		.citat {
+			
+			font-size: 1.2em;
+			font-style: italic;
+			text-align: center;
+		}
+		
+		
+		
+		
+/* PURCHAE PAGE THINGS BELOW*/ 		
+		
+		#qunit-tests, #qunit-header, #qunit-banner, #qunit-testrunner-toolbar, #qunit-userAgent, #qunit-testresult {
+			font-family: Desdemona, "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+		}
+
+		#qunit-testrunner-toolbar, #qunit-userAgent, #qunit-testresult, #qunit-tests li { font-size: small; }
+		#qunit-tests { font-size: smaller; }
+
+
+		/** Resets */
+
+		#qunit-tests, #qunit-tests ol, #qunit-header, #qunit-banner, #qunit-userAgent, #qunit-testresult {
+			margin: 0;
+			padding: 0;
+		}
+
+
+		/** Header */
+
+		#qunit-header {
+			padding: 0.5em 0 0.5em 1em;
+
+			color: #8699a4;
+			background-color: #0d3349;
+
+			font-size: 1.5em;
+			line-height: 1em;
+			font-weight: normal;
+
+			border-radius: 15px 15px 0 0;
+			-moz-border-radius: 15px 15px 0 0;
+			-webkit-border-top-right-radius: 15px;
+			-webkit-border-top-left-radius: 15px;
+		}
+
+		#qunit-header a {
+			text-decoration: none;
+			color: #c2ccd1;
+		}
+
+		#qunit-header a:hover,
+		#qunit-header a:focus {
+			color: #fff;
+		}
+
+		#qunit-banner {
+			height: 5px;
+		}
+
+		#qunit-testrunner-toolbar {
+			padding: 0.5em 0 0.5em 2em;
+			color: #5E740B;
+			background-color: #eee;
+		}
+
+		#qunit-userAgent {
+			padding: 0.5em 0 0.5em 2.5em;
+			background-color: #2b81af;
+			color: #fff;
+			text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 1px;
+		}
+
+
+		/** Tests: Pass/Fail */
+
+		#qunit-tests {
+			list-style-position: inside;
+		}
+
+		#qunit-tests li {
+			padding: 0.4em 0.5em 0.4em 2.5em;
+			border-bottom: 1px solid #fff;
+			list-style-position: inside;
+		}
+
+		#qunit-tests.hidepass li.pass, #qunit-tests.hidepass li.running  {
+			display: none;
+		}
+
+		#qunit-tests li strong {
+			cursor: pointer;
+		}
+
+		#qunit-tests li a {
+			padding: 0.5em;
+			color: #c2ccd1;
+			text-decoration: none;
+		}
+		#qunit-tests li a:hover,
+		#qunit-tests li a:focus {
+			color: #000;
+		}
+
+		#qunit-tests ol {
+			margin-top: 0.5em;
+			padding: 0.5em;
+
+			background-color: #fff;
+
+			border-radius: 15px;
+			-moz-border-radius: 15px;
+			-webkit-border-radius: 15px;
+
+			box-shadow: inset 0px 2px 13px #999;
+			-moz-box-shadow: inset 0px 2px 13px #999;
+			-webkit-box-shadow: inset 0px 2px 13px #999;
+		}
+
+		#qunit-tests table {
+			border-collapse: collapse;
+			margin-top: .2em;
+		}
+
+		#qunit-tests th {
+			text-align: right;
+			vertical-align: top;
+			padding: 0 .5em 0 0;
+		}
+
+		#qunit-tests td {
+			vertical-align: top;
+		}
+
+		#qunit-tests pre {
+			margin: 0;
+			white-space: pre-wrap;
+			word-wrap: break-word;
+		}
+
+		#qunit-tests del {
+			background-color: #e0f2be;
+			color: #374e0c;
+			text-decoration: none;
+		}
+
+		#qunit-tests ins {
+			background-color: #ffcaca;
+			color: #500;
+			text-decoration: none;
+		}
+
+		/*** Test Counts */
+
+		#qunit-tests b.counts                       { color: black; }
+		#qunit-tests b.passed                       { color: #5E740B; }
+		#qunit-tests b.failed                       { color: #710909; }
+
+		#qunit-tests li li {
+			margin: 0.5em;
+			padding: 0.4em 0.5em 0.4em 0.5em;
+			background-color: #fff;
+			border-bottom: none;
+			list-style-position: inside;
+		}
+
+		/*** Passing Styles */
+
+		#qunit-tests li li.pass {
+			color: #5E740B;
+			background-color: #fff;
+			border-left: 26px solid #C6E746;
+		}
+
+		#qunit-tests .pass                          { color: #528CE0; background-color: #D2E0E6; }
+		#qunit-tests .pass .test-name               { color: #366097; }
+
+		#qunit-tests .pass .test-actual,
+		#qunit-tests .pass .test-expected           { color: #999999; }
+
+		#qunit-banner.qunit-pass                    { background-color: #C6E746; }
+
+		/*** Failing Styles */
+
+		#qunit-tests li li.fail {
+			color: #710909;
+			background-color: #fff;
+			border-left: 26px solid #EE5757;
+		}
+
+		#qunit-tests > li:last-child {
+			border-radius: 0 0 15px 15px;
+			-moz-border-radius: 0 0 15px 15px;
+			-webkit-border-bottom-right-radius: 15px;
+			-webkit-border-bottom-left-radius: 15px;
+		}
+
+		#qunit-tests .fail                          { color: #000000; background-color: #EE5757; }
+		#qunit-tests .fail .test-name,
+		#qunit-tests .fail .module-name             { color: #FFF; }
+
+		#qunit-tests .fail .test-actual             { color: #EE5757; }
+		#qunit-tests .fail .test-expected           { color: green;   }
+
+		#qunit-banner.qunit-fail                    { background-color: #EE5757; }
+
+
+		/** Result */
+
+		#qunit-testresult {
+			padding: 0.5em 0.5em 0.5em 2.5em;
+
+			color: #2b81af;
+			background-color: #D2E0E6;
+
+			border-bottom: 1px solid white;
+		}
+
+		/** Fixture */
+
+		#qunit-fixture {
+			position: absolute;
+			top: -10000px;
+			left: -10000px;
+		}
+		button, input, optgroup, select, textarea {color: black;}
+		
+		
+		
+
+		
