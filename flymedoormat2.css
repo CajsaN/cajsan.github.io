@@ -3,7 +3,8 @@
 * {
 	font-family: Garamond;
 }
-
+.btn .btn-orange{
+	link: submit.html;}
 .navbar-default {
 	background-color:#98C793;
 	border-color:#FFF;
