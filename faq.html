@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<!--detta är ? -->
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Cajsa Nolskog">
+		<meta name="description" content="Assignment Web design product Flyme doormat">
+		<meta name="keywords" content="Flyme Doormat, Final assignment web design class">
+		<meta charset="UTF-8">
+		
+		
+		<style>
+		/* Sticky navbar styles
+		-------------------------------------------------- */
+		body {	  
+/*		  padding-top: 70px;*/
+		}
+		
+		/* Sticky footer styles
+		-------------------------------------------------- */
+		html {
+		  position: relative;
+		  min-height: 100%;
+		}
+		body {
+		  /* Margin bottom by footer height */
+		  margin-bottom: 60px;
+		}
+		
+		</style>
+		
+		<title>Flyme Doormat</title>
+		
+		<!-- Latest compiled and minified CSS --> <!--detta är alltså en extern css som någon annan host, sparar tid om populär cache redan pa deras dator content delivery netowork. ordning viktig, min custom är sist och overrides the rest -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		
+		<!--HÄR FINNS FRIA VECTOR: LADDA DENNA FONT AWESOME --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="flymedoormat2.css">
+	</head>
+	
+	
+	
+	<!-- HÄR BÖRJAR BODY!!!!!!!!!!!!! -->
+	
+	<body data-spy="scroll" data-target="#navbar">
+		
+	<!-- Fixed navbar -->
+	    <nav class="navbar navbar-default navbar-fixed-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+			  <!-- <img alt="Socks!" src="img/ylogo.png"> -->
+	          <a class="navbar-brand" href="flymedoormat2.html">Flyme Doormat</a>
+	        </div>
+	        <div id="navbar" class="navbar-collapse collapse">
+	          <!-- <ul class="nav navbar-nav">
+	            <li class=""><a href="#">Home</a></li>
+	            <li><a href="#about">About</a></li>
+	            <li><a href="#contact">Contact</a></li>
+	            <li class="dropdown">
+	              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+	              <ul class="dropdown-menu" role="menu">
+	                <li><a href="#">Action</a></li>
+	                <li><a href="#">Another action</a></li>
+	                <li><a href="#">Something else here</a></li>
+	                <li class="divider"></li>
+	                <li class="dropdown-header">Nav header</li>
+	                <li><a href="#">Separated link</a></li>
+	                <li><a href="#">One more separated link</a></li>
+	              </ul>
+	            </li>
+	          </ul> -->
+	          <ul class="nav navbar-nav navbar-right">
+	             
+				
+				 <li><a href="features.html">Features</a></li>
+					 <li><a href="history.html">History</a></li>
+					 <li><a href="contact.html">Contact</a></li>
+					  <li><a href="aboutus.html">About Us</a></li>
+				
+	            <!-- <li><a href="../navbar-static-top/"></a></li> -->
+	            <li class=""><a href="faq.html">FAQ</a></li>
+			<!--	<li><a href="purchasepage.html"><button type="button" class="btn btn-blue navbar-btn">Buy Now</button></a></li> -->
+				  <li><button type="button" class="btn btn-default navbar-btn"><a href="purchasepage.html">Buy Now</a></button></li>
+	          </ul>
+			
+	        </div><!--/.nav-collapse -->
+	      </div>
+	    </nav>
+		
+		
+		
+		
+						<div id="faq">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-4">
+		
+										<h2 class="pull-right"><em>FAQ</em><br><small>Any questions? See if we already can give you an answer in our FAQ</small></h2>
+									</div> <!--column -->
+									<div class="col-sm-6">
+										<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+										  <div class="panel panel-default">
+										    <div class="panel-heading" role="tab" id="headingOne">
+										      <h4 class="panel-title">
+										        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Can I customize the color of my Flyme Doormat?
+										        </a>
+										      </h4>
+										    </div>
+										    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+										      <div class="panel-body">
+										        Yes you can. We have five different colors you can choose from when you buy your Flyme Doormat. If you want an other color, you can make a special order. Fill in our <a href="contact.html#form">contact form</a>, and we will be in touch.
+										      </div>
+										    </div>
+										  </div>
+										  <div class="panel panel-default">
+										    <div class="panel-heading" role="tab" id="headingTwo">
+										      <h4 class="panel-title">
+										        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										          Is Flyme Doormat a safe way of travelling?
+										        </a>
+										      </h4>
+										    </div>
+										    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+										      <div class="panel-body">
+										        Yes it is! <br>
+												During our time in the transportation buissness, we have had very few incidents and the Flyme Doormat is a much safer choice than other modes of travelling on the market. Cars, bikes, brooms and aircrafts are all much more likely to cause injury than and most definitly more time consuming than travelling with the Flyme Doormat!
+										      </div>
+										    </div>
+										  </div>
+										  <div class="panel panel-default">
+										    <div class="panel-heading" role="tab" id="headingThree">
+										      <h4 class="panel-title">
+										        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+										          Can more than one person travel with the Flyme Doormat at the same time?
+										        </a>
+										      </h4>
+										    </div>
+										    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+										      <div class="panel-body">
+										        We do not recommend travelling more than one person at the same time and do not take any responsibility for incidents happening due to not following our advise. Since travelling time is so short we recommed doing the transportation one by one, after each other to avoid overfilling the Flyme Doormat system. 
+												<br> <br>
+												When it comes to using the Flyme Doormat with younger children, use normal caution and make sure all body parts are on the Flyme Doormat and keep your child tight. 
+										      </div>
+										    </div>
+										  </div>
+										</div>
+											</div> <!--column -->
+										</div> <!-- row -->
+										<div class="row">
+								<br>
+						 				   <div class="col-md-12">
+						 					   	<h5 class="text-center">HAVE MORE QUESTIONS?<br><small>Write us an electronic mail</small></h5>
+						 					<p class="text-center"><a class="link" href="mailto:flymedoormat@flymedoormat.com">flymedoormat@flymedoormat.com</a></p>
+											<br>
+										</div><!--column -->
+												</div> <!-- row-->
+								</div> <!--container -->	
+						</div><!-- #faq -->
+		
+			
+			
+			
+					<footer class="footer">
+						<div class="container">
+							<div class="row">
+						
+	 				
+						
+								<div class="text-center"> <div class="col-sm-12">
+						  
+									<a href="#" class="btn btn-orange"><i class="fa fa-twitter"></i>Twitter</a>
+								<a href="#" class="btn btn-orange"><i class="fa fa-facebook"></i>Facebook</a>
+								<a href="mailto:flymedoormat@flymedoormat.com" class="btn btn-orange"><i class="fa fa-envelope-o"></i>Electronic mail</a>
+		    </div><!--column -->
+		</div> <!--class center..? -->
+			</div> <!-- row -->
+				  
+ 		   
+					  	
+					</div> <!--container -->
+				    </footer>
+		
+						<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+						    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+							<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+					</body>
+
+
+				</html>
