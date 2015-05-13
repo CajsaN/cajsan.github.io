@@ -1165,3 +1165,30 @@ div>iframe{
 a {
 	text-decoration: underline;
 }
+
+.specialfont {
+	font-size: 20px;
+}
+
+i .fa  {
+	font-size: 20px;
+	font-color: #CCCAAD;
+}
+small{
+	font-size: 13px;
+}
+.videoart{
+	margin: 20px;
+text-alignment: right;
+}
+
+span>.videoart  {
+	margin: -10px 0px;
+}
+
+#hero {
+	padding: 10px 60px;
+}
+.smallvideo{
+	margin: 100px 0px;
+}
